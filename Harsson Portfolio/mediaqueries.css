@@ -1,0 +1,152 @@
+/*///////////////////////////////////////////////////////////////////////////
+smaller than 815px
+///////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 815px) {
+    header h1 {
+        font-size: 35px;
+        width: 220px;
+    }
+    
+    h1:hover {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h3 {
+        font-size: 35px;
+    }
+    
+    .foot {
+        width: 32.5%;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////
+smaller than 620px
+///////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 620px) {
+    .web-words {
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .escape,
+    .game {
+        margin-right: auto;
+        width: 100%
+    }
+    
+    .escape img,
+    .game img {
+        border-radius: 0;
+        width: 100%;
+    }
+    
+    .left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        padding-left: 0;
+        max-width: 85%;
+    }
+    
+    .motion-words {
+        display: block;
+        margin-right: auto;
+        width: 85%;
+    }
+    
+    footer p {
+        font-size: 10px;
+    }
+    
+    .foot img {
+        width: 30px;
+    }
+    
+    h4 {
+        font-size: 15px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////
+smaller than 570px
+///////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 570px) {
+    header h1 {
+        font-size: 25px;
+        width: 160px;
+    }
+    
+    h1:hover {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    copy {
+        font-size: 15px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////
+smaller than 420px
+///////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 420px) {
+    p {
+        font-size: 10px;
+    }
+    
+    footer p {
+        font-size: 9px;
+    }
+    
+    .foot img {
+        width: 25px;
+    }
+    
+    copy {
+        font-size: 10px;
+    }
+    
+    .escape {
+        padding-top: 0;
+    }
+    
+    .game {
+        padding-top: 20px;
+    }
+    
+    h2 {
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////
+smaller than 350px
+///////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 350px) {
+    .foot {
+        display: block;
+    }
+}

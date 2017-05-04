@@ -1,0 +1,310 @@
+* {
+    font-family: 'Noto Serif', serif;
+}
+
+/*===============================================================
+===========================================================================
+HEADER
+===========================================================================
+===============================================================*/
+
+header {
+    background-color: #C1B49A;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.head {
+    max-width: 950px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.social img {
+    width: 50px;
+    margin: 10px;
+    margin-right: 22px;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: -115px;
+}
+
+.nav-head {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-size: 16pt;
+    color: black;
+}
+
+/*===============================================================
+===========================================================================
+FEATURE
+===========================================================================
+===============================================================*/
+
+.feature img {
+    width: 100%;
+    margin: 0;
+    margin-top: 132px;
+}
+
+/*===============================================================
+===========================================================================
+INFO
+===========================================================================
+===============================================================*/
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    padding-top: 200px;
+    background-color: #5A4A42;
+    color: white;
+}
+
+.info h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.band,
+.time,
+.day {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 90px; 
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 200px;
+}
+
+.info h3 {
+    margin-bottom: 70px;
+}
+
+.info-c {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    background-color: #5A4A42;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.info-c h2 {
+    margin-left: 10%;
+    font-size: 20pt;
+}
+
+.info-c h3 {
+    margin-left: 15%;
+    font-size: 18pt;
+}
+
+.info-c p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16pt;
+}
+
+.info-f {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    background-color: #5A4A42;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.info-f h2 {
+    margin-left: 10%;
+    font-size: 20pt;
+    margin-right: 10%;
+}
+
+.info-f h3 {
+    margin-left: 15%;
+    font-size: 18pt;
+}
+
+.info-l {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    background-color: #5A4A42;
+    color: white;
+}
+
+.info-l h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18pt;
+}
+
+/*===============================================================
+===========================================================================
+PAGES
+===========================================================================
+===============================================================*/
+
+.pages-h {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    background-color: #D0D2D3;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 50%;
+}
+
+.pages-h img {
+    display: flex;
+    position: relative;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pages-h h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 24pt;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.food-h img {
+    width: 60%;
+}
+
+.col-l,
+.col-r {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    background-color: #D0D2D3;
+}
+
+.pages img {
+    max-width: 100%;
+}
+
+/*===============================================================
+===========================================================================
+FOOTER
+===========================================================================
+===============================================================*/
+
+footer {
+    max-width: 100%;
+    background-color: #C1B49A;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-foot img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 5px;
+}
+
+.links-foot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adress,
+.contact,
+.l-stack,
+.r-stack {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact,
+.nav-foot {
+    margin-left: 200px;
+}
+
+.adress,
+.contact {
+    margin-right; 80px;
+    font-size: 13pt;
+}
+
+/*===============================================================
+===========================================================================
+Buttons
+===========================================================================
+===============================================================*/
+
+.social img:hover,
+.nav-foot img:hover,
+.pages img:hover,
+.music-h img:hover,
+.lodge-h img:hover,
+.camp-h img:hover,
+.food-h img:hover,
+.nav-link:hover {
+    border: 2pt solid #D0D2D3;
+}

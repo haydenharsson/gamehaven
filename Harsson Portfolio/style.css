@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*=======================================
+==========================================================
+Loader
+==========================================================
+=======================================*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/page-loader.gif) center no-repeat #fff;
+}
+
+/*=======================================
+==========================================================
+Header
+==========================================================
+=======================================*/
+header img{
+    width: 100%;
+    
+}
+
+header h1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 306px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(35, 31, 32, 0.6);
+    color: white;
+}
+
+header {
+    position: fixed;
+    margin-top: -50%;
+}
+
+.front {
+    
+    margin-top: 50%;
+}
+
+
+
+.over {
+    margin-top: -54%;
+}
+
+.logo {
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 0;
+}
+
+/*=======================================
+==========================================================
+Type
+==========================================================
+=======================================*/
+h2,
+h3,
+h4,
+p,
+copy {
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+   text-decoration: none;
+}
+
+/*=======================================
+==========================================================
+Buttons
+==========================================================
+=======================================*/
+h1:hover {
+    background-color: rgba(35, 31, 32, .2);
+    font-size: 45px;
+}
+
+h2:hover {
+    background-color:  rgba(35, 31, 32, 0.6);
+}
+/*=======================================
+==========================================================
+Article-Web
+==========================================================
+=======================================*/
+article {
+    max-width: 100%;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 300%;
+}
+
+
+
+h3 {
+    text-align: center;
+    background-color: #414042;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.web-words {
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 40%;
+    font-size: 25px;
+    padding: 2%;
+    float: left;
+}
+
+.web-words p{
+    color: black;
+}
+
+.right {
+    
+}
+
+h2 {
+    width: auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.escape img,
+.game img {
+    position: relative;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.escape,
+.game {
+    position: relative;
+    width: 49.7%;
+    text-align: center;
+    margin-left: auto;
+    padding-top: 50px;
+    background-color: #BE1E2D;
+}
+
+.escape {
+    padding-bottom: 10px;
+}
+
+/*=======================================
+==========================================================
+Article-Motion
+==========================================================
+=======================================*/
+.animation-h {
+    position: relative;
+    min-height: 300px;
+}
+
+.animation {
+    padding-bottom: 3%;
+    background-color: #BE1E2D;
+}
+
+#motion img {
+    position: relative;
+    max-width: 100%;
+}
+
+.left {
+    position: relative;
+    max-width: 45%;
+    margin-left: 3%;
+    padding-left: 2%;
+    float: left;
+}
+
+.motion-words {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    width: 40%;
+    font-size: 25px;
+    background-color: lightgray; 
+}
+
+.motion-words p {
+    color: black;
+}
+
+/*=======================================
+==========================================================
+Article-Ads
+==========================================================
+=======================================*/
+.advertising {
+    background-color: #BE1E2D;
+}
+
+.ad-words {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: lightgray;
+}
+
+.ad-words p {
+    color: black;
+}
+
+.fotorama__wrap { 
+    margin: auto;
+    
+    background-color: #BE1E2D;
+}
+/*=======================================
+==========================================================
+Footer
+==========================================================
+=======================================*/
+footer {
+    position: relative;
+    background-color: #414042;
+    width: 100%;
+    clear: left;
+    margin-top: 0;
+}
+
+.foot {
+    position: relative;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot_wide {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot img {
+    width: 40px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+footer p {
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+copy {
+    margin-left: 5px;
+}
