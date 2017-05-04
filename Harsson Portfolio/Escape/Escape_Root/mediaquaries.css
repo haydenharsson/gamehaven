@@ -1,0 +1,203 @@
+/*===============================================================
+===========================================================================
+Less than 960px
+===========================================================================
+===============================================================*/
+@media (max-width: 960px) {
+    header {
+        height: auto; 
+    }
+    
+    .logo {
+        margin-bottom: 20px;
+    }
+    
+    .feature {
+        margin-top: -.5%;
+    }
+    
+    .pages-h {
+        max-width: 100%;
+    }
+    
+    .pages {
+        max-width: 100%;
+    }
+    
+    .info {
+        max-width: 100%;
+    }
+    
+    .info-c {
+        max-width: 100%;
+    }
+    
+    .info-c p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .info-f {
+        max-width: 100%;
+    }
+    
+    .info-l {
+        max-width: 100%;
+    }
+    
+    .band,
+    .time,
+    .day {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+        
+    .col {
+        max-width: 50%;
+    }
+    
+    .foot {
+        max-width: 100%;
+    }
+    
+    .contact,
+    .nav-foot {
+    margin-left: 20px;
+    }
+
+    .adress,
+    .contact {
+    font-size: 13pt;
+        margin-right: 20px;
+    }
+}
+
+/*===============================================================
+===========================================================================
+Less than 765px
+===========================================================================
+===============================================================*/
+@media (max-width: 765px) {
+    .logo {
+        max-width: 50%;
+        margin-bottom: 60px;
+    }
+    
+    header {
+        height: auto;
+    }
+    
+    .feature img {
+        margin-top: 16.5%;
+    }
+    
+    .social img{
+        margin: 0;
+        margin-top: -20px;
+        max-width: 50px;
+    }
+    
+    .p {
+        margin-right: 20px;
+    }
+    
+    .nav-link {
+        margin-right: 1%;
+        margin-left: 1%;
+        font-size: 14pt;
+    }
+    
+    .adress,
+    .contact {
+        font-size: 10pt;
+    }
+    
+    .nav-foot img {
+    max-width: 40px;
+    max-height: 40px;
+    margin: 5px;
+    }
+}
+
+/*===============================================================
+===========================================================================
+Less than 500px
+===========================================================================
+===============================================================*/
+@media (max-width: 500px) {
+    .feature img {
+        margin-top: 18.5%;
+    }
+    
+    .social img {
+        width: 30px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    .p {
+        margin-right: 40px;
+    }
+    
+    .nav-link {
+        font-size: 10pt;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .pages-h h3 {
+        font-size: 14pt;
+    }
+    
+    .info h3 {
+        font-size: 10pt;
+    }
+    
+    .band,
+    .time,
+    .day {
+        font-size: 8pt;
+        margin: 0;
+        margin-left: 5px;
+    }
+    
+    .info-c h2 {
+        font-size: 12pt;
+    }
+    
+    .info-c h3 {
+        font-size: 10pt;
+    }
+    
+    .info-c p {
+        font-size: 8pt;
+    }
+    
+    .info-f h2 {
+        font-size: 12pt;
+    }
+    
+    .info-f h3 {
+        font-size: 10pt;
+    }
+    
+    .info-l h3 {
+        font-size: 10pt;
+    }
+    
+    .contact,
+    .nav-foot {
+        margin-left: 0;
+    }
+    
+    .adress,
+    .contact {
+        font-size: 8pt;
+        margin-right: 0;
+    }
+    
+    .nav-foot img {
+        max-height: 25px;
+        max-width: 30px;
+    }
+}
